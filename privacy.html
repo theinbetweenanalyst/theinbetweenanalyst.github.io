@@ -24,6 +24,9 @@
 
   <p>The In-Between Analyst uses a private upload tool to post its own videos to its own YouTube channel. Only the channel owner uses it, on their own computer. This policy explains what the tool accesses and what it does with it.</p>
 
+  <h2>YouTube API Services</h2>
+  <p>This tool uses YouTube API Services. By using it, you agree to be bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Google's handling of data is covered by the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> (https://policies.google.com/privacy).</p>
+
   <h2>What the tool accesses</h2>
   <p>The tool asks Google for one permission, <code>youtube.upload</code>, which lets it upload videos to the signed-in YouTube channel. It doesn't ask for permission to read, change, or delete existing videos, comments, subscribers, or any other account data.</p>
   <p>It uploads video files the channel owner made, along with their title, description, tags, privacy setting, and the "altered or synthetic content" label. Every upload is set to private.</p>
@@ -39,16 +42,21 @@
     <li>It doesn't use data for advertising.</li>
   </ul>
 
-  <h2>Google and YouTube terms</h2>
-  <p>The tool uses YouTube API Services. By using it, you agree to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Google's handling of data is covered by the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+  <h2>Data retention and deletion</h2>
+  <ul>
+    <li><strong>Sign-in tokens</strong> are kept only while the tool is in use. They are deleted from the macOS Keychain when access is revoked or the tool is no longer used.</li>
+    <li><strong>Upload records</strong> (video ID, link, and upload time) are kept on the owner's computer only, and can be deleted at any time by deleting the local record file.</li>
+    <li><strong>No YouTube data is cached or stored</strong> beyond the ID and link of videos the tool itself uploaded.</li>
+    <li>To ask for any data to be deleted, email the contact below. Requests are handled within 7 days.</li>
+  </ul>
 
-  <h2>Removing access</h2>
-  <p>Access can be removed at any time on the <a href="https://myaccount.google.com/permissions">Google Account third-party access page</a>. Removing it makes the stored token stop working. The owner can also delete it from the macOS Keychain.</p>
+  <h2>Revoking access</h2>
+  <p>Access can be revoked at any time on the <a href="https://myaccount.google.com/permissions">Google security settings page</a> (https://myaccount.google.com/permissions). Revoking it makes the stored token stop working immediately.</p>
 
   <h2>Contact</h2>
   <p>Questions about this policy: <a href="mailto:kkh3419@hotmail.com">kkh3419@hotmail.com</a></p>
 
-  <footer><a href="index.html">The In-Between Analyst</a></footer>
+  <footer><a href="index.html">The In-Between Analyst</a> · <a href="terms.html">Terms of Service</a></footer>
 </main>
 </body>
 </html>
